@@ -1,0 +1,281 @@
+[
+  {
+    "id": 3,
+    "mesa": "1",
+    "mesero": "javier",
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Hamburguesa",
+        "precio": 10000,
+        "cantidad": 2
+      },
+      {
+        "id": 3,
+        "nombre": "Ensalada César",
+        "precio": 14000,
+        "cantidad": 1
+      }
+    ],
+    "total": 34000,
+    "estado": "listo"
+  },
+  {
+    "id": 2,
+    "mesa": "2",
+    "mesero": "javier",
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Hamburguesa",
+        "precio": 10000,
+        "cantidad": 2
+      },
+      {
+        "id": 3,
+        "nombre": "jugo de mora",
+        "precio": "3000",
+        "cantidad": 2
+      },
+      {
+        "id": 9,
+        "nombre": "Coctel De Everest",
+        "precio": "20000",
+        "cantidad": 1
+      }
+    ],
+    "total": 46000,
+    "estado": "listo"
+  },
+  {
+    "id": 3,
+    "mesa": "4",
+    "mesero": "mariana",
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Hamburguesa",
+        "precio": 10000,
+        "cantidad": 1
+      },
+      {
+        "id": 5,
+        "nombre": "Agua Mineral",
+        "precio": 2000,
+        "cantidad": 1
+      },
+      {
+        "id": 9,
+        "nombre": "Coctel De Everest",
+        "precio": "20000",
+        "cantidad": 2
+      }
+    ],
+    "total": 52000,
+    "estado": "procesando"
+  },
+  {
+    "id": 4,
+    "mesa": "5",
+    "mesero": "javier",
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Hamburguesa",
+        "precio": 10000,
+        "cantidad": 3
+      },
+      {
+        "id": 3,
+        "nombre": "jugo de mora",
+        "precio": "3000",
+        "cantidad": 3
+      }
+    ],
+    "total": 39000,
+    "estado": "listo"
+  },
+  {
+    "id": 5,
+    "mesa": "14",
+    "mesero": "javier",
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Hamburguesa",
+        "precio": 10000,
+        "cantidad": 3
+      },
+      {
+        "id": 4,
+        "nombre": "Sopa de Tomate",
+        "precio": 5000,
+        "cantidad": 1
+      }
+    ],
+    "total": 35000,
+    "estado": "listo"
+  },
+  {
+    "id": 6,
+    "mesa": "14",
+    "mesero": "javier",
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Hamburguesa",
+        "precio": 10000,
+        "cantidad": 3
+      },
+      {
+        "id": 4,
+        "nombre": "Sopa de Tomate",
+        "precio": 5000,
+        "cantidad": 1
+      }
+    ],
+    "total": 35000,
+    "estado": "listo"
+  },
+  {
+    "id": 7,
+    "mesa": "5",
+    "mesero": "mariana",
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Hamburguesa grande",
+        "precio": "15000",
+        "cantidad": 2
+      },
+      {
+        "id": 9,
+        "nombre": "Coctel De Everest",
+        "precio": "20000",
+        "cantidad": 2
+      }
+    ],
+    "total": 70000,
+    "estado": "listo"
+  },
+  {
+    "id": 8,
+    "mesa": "5",
+    "mesero": "javier",
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Empanada",
+        "precio": "1000",
+        "cantidad": 2
+      }
+    ],
+    "total": 2000,
+    "estado": "listo"
+  },
+  {
+    "id": 9,
+    "mesa": "5",
+    "mesero": "javier",
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Empanada",
+        "precio": "1000",
+        "cantidad": 2
+      }
+    ],
+    "total": 2000,
+    "estado": "listo"
+  },
+  {
+    "id": 10,
+    "mesa": "5",
+    "mesero": "javier",
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Empanada",
+        "precio": "1000",
+        "cantidad": 2
+      }
+    ],
+    "total": 2000,
+    "estado": "listo"
+  },
+  {
+    "id": 11,
+    "mesa": "5",
+    "mesero": "javier",
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Empanada",
+        "precio": "1000",
+        "cantidad": 2
+      }
+    ],
+    "total": 2000,
+    "estado": "listo"
+  },
+  {
+    "id": 12,
+    "mesa": "5",
+    "mesero": "javier",
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Empanada",
+        "precio": "1000",
+        "cantidad": 2
+      }
+    ],
+    "total": 2000,
+    "estado": "procesando"
+  },
+  {
+    "id": 13,
+    "mesa": "5",
+    "mesero": "javier",
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Empanada",
+        "precio": "1000",
+        "cantidad": 2
+      }
+    ],
+    "total": 2000,
+    "estado": "listo"
+  },
+  {
+    "id": 14,
+    "mesa": "5",
+    "mesero": "javier",
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Empanada",
+        "precio": "1000",
+        "cantidad": 2
+      }
+    ],
+    "total": 2000,
+    "estado": "listo"
+  },
+  {
+    "id": 15,
+    "mesa": "5",
+    "mesero": "javier",
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Empanada",
+        "precio": "1000",
+        "cantidad": 2
+      }
+    ],
+    "total": 2000,
+    "estado": "listo"
+  }
+]

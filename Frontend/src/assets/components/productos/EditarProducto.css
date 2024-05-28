@@ -1,0 +1,54 @@
+.ProductoContainer {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .BackButtonContainer {
+    margin-bottom: 20px;
+  }
+  
+  .BackButton {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .BackButton:hover {
+    color: #0056b3;
+  }
+  
+  .FormGroup {
+    margin-bottom: 20px;
+  }
+  
+  .FormLabel {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .FormInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .FormButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .FormButton:hover {
+    background-color: #0056b3;
+  }
+  

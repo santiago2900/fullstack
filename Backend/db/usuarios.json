@@ -1,0 +1,34 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "username": "admin",
+      "rol": "administrador",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "username": "javier",
+      "rol": "mesero",
+      "password": "1234"
+    },
+    {
+      "id": 5,
+      "username": "mariana",
+      "rol": "mesero",
+      "password": "12345"
+    },
+    {
+      "id": 7,
+      "username": "Julieth",
+      "rol": "cocina",
+      "password": "12345"
+    },
+    {
+      "id": 7,
+      "username": "sebas",
+      "rol": "admin",
+      "password": "123"
+    }
+  ]
+}

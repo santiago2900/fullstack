@@ -1,0 +1,45 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Empanada",
+      "precio": "1000"
+    },
+    {
+      "id": 2,
+      "nombre": "Pizza",
+      "precio": "15000"
+    },
+    {
+      "id": 3,
+      "nombre": "jugo de mora",
+      "precio": "3000",
+      "habilitado": false
+    },
+    {
+      "id": 4,
+      "nombre": "Sopa de Tomate",
+      "precio": 5000
+    },
+    {
+      "id": 5,
+      "nombre": "Agua Mineral",
+      "precio": 2000
+    },
+    {
+      "id": 6,
+      "nombre": "Jugo ",
+      "precio": "3000"
+    },
+    {
+      "id": 7,
+      "nombre": "Pepsi",
+      "precio": "2000"
+    },
+    {
+      "id": 9,
+      "nombre": "Coctel ",
+      "precio": "20000"
+    }
+  ]
+}

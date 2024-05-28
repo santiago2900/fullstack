@@ -1,0 +1,160 @@
+.FormContainer {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    
+  }
+
+
+  .mesero-background {
+    background-image: url('foto1.jpg');
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .BackButtonContainer {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .BackButton {
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .ArrowIcon {
+    vertical-align: middle;
+  }
+  
+ 
+
+ 
+  
+  .FormGroup {
+    margin-bottom: 20px;
+  }
+  
+  .FormLabel {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .FormInput,
+  .FormSelect {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .FormButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #0cf903;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .FormButton:hover {
+    background-color: #04fc25;
+  }
+
+  .PedidoItem button {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 5px 10px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 14px; 
+    margin-right: 5px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+  }
+  
+  
+  .PedidoItem button.increment {
+    background-color: #008CBA; 
+  }
+  
+  
+  .PedidoItem button.decrement {
+    background-color: #f44336;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .tooltip button {
+    background-color: #db3434;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-out;
+  }
+  
+  .tooltip button:hover {
+    background-color: #b92929;
+    transform: scale(1.05);
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .tooltiptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+  }
+  
+  
+
+
+
+
+

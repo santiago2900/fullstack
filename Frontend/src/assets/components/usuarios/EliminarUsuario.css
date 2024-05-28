@@ -1,0 +1,60 @@
+.FormContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .BackButtonContainer {
+    margin-bottom: 20px;
+  }
+  
+  .BackButton {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .ArrowIcon {
+    vertical-align: middle;
+  }
+  
+  .FormGroup {
+    margin-bottom: 20px;
+  }
+  
+  .FormLabel {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .FormSelect {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .FormButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .FormButton:hover {
+    background-color: #c82333;
+  }
+  
+  .FormButton:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }

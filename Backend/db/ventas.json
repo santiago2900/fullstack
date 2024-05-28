@@ -1,0 +1,77 @@
+[
+  {
+    "mesero": "javier",
+    "producto": "Hamburguesa",
+    "totalVentas": 20000
+  },
+  {
+    "mesero": "javier",
+    "producto": "Hamburguesa, jugo de mora, Coctel De Everest",
+    "totalVentas": 46000
+  },
+  {
+    "mesero": "javier",
+    "producto": "Hamburguesa, Pizza, Coctel De Everest",
+    "totalVentas": 120000
+  },
+  {
+    "mesero": "javier",
+    "producto": "",
+    "totalVentas": 0
+  },
+  {
+    "mesero": "javier",
+    "producto": "Hamburguesa, Sopa de Tomate",
+    "totalVentas": 35000
+  },
+  {
+    "mesero": "mariana",
+    "producto": "Hamburguesa grande, Coctel De Everest",
+    "totalVentas": 70000
+  },
+  {
+    "mesero": "javier",
+    "producto": "Empanada",
+    "totalVentas": 2000
+  },
+  {
+    "mesero": "javier",
+    "producto": "Hamburguesa, jugo de mora",
+    "totalVentas": 39000
+  },
+  {
+    "mesero": "javier",
+    "producto": "Hamburguesa, Sopa de Tomate",
+    "totalVentas": 35000
+  },
+  {
+    "mesero": "javier",
+    "producto": "Empanada",
+    "totalVentas": 2000
+  },
+  {
+    "mesero": "javier",
+    "producto": "Empanada",
+    "totalVentas": 2000
+  },
+  {
+    "mesero": "javier",
+    "producto": "Empanada",
+    "totalVentas": 2000
+  },
+  {
+    "mesero": "javier",
+    "producto": "Empanada",
+    "totalVentas": 2000
+  },
+  {
+    "mesero": "javier",
+    "producto": "Empanada",
+    "totalVentas": 2000
+  },
+  {
+    "mesero": "javier",
+    "producto": "Empanada",
+    "totalVentas": 2000
+  }
+]

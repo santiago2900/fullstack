@@ -1,0 +1,63 @@
+.FormContainer {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .BackButtonContainer {
+    margin-bottom: 20px;
+  }
+  
+  .BackButton {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .ArrowIcon {
+    vertical-align: middle;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .FormGroup {
+    margin-bottom: 15px;
+  }
+  
+  .FormLabel {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .FormInput,
+  .FormSelect {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .FormButton.GuardarUsuarioButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .FormButton.GuardarUsuarioButton:hover {
+    background-color: #218838; 
+  }
+  

@@ -1,0 +1,117 @@
+
+/* Estilos para la barra lateral */
+.sidebar-container {
+  width: 180px; /* Ancho más pequeño */
+  height: 40vh; /* Altura relativa al 80% de la altura de la ventana */
+  background-color: #6a93f3;
+  background-image: url('fondo.jpg'); /* Ruta a tu imagen de fondo */
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 50%; /* Centrado vertical */
+  left: 50%; /* Centrado horizontal */
+  transform: translate(-50%, -50%); /* Centrado vertical y horizontal */
+  z-index: 1000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+
+/* Estilos para el botón de cerrar sesión */
+.Btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px; /* Ancho más pequeño */
+  height: 30px; /* Altura más pequeña */
+  border: none;
+  border-radius: 15px; /* Borde más redondeado */
+  cursor: pointer;
+  background-color: #dc3545;
+  color: #fff;
+  font-size: 12px; /* Tamaño de fuente más pequeño */
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px auto; /* Margen automático en los lados */
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos para el botón de cerrar sesión cuando se pasa el mouse sobre él */
+.Btn:hover {
+  background-color: #c82333;
+}
+
+/* Estilos para las opciones de la barra lateral */
+.sidebar-option {
+  color: #cc513c;
+  text-decoration: none;
+  padding: 8px 20px; /* Reducir el espaciado vertical y horizontal */
+  transition: color 0.3s ease;
+  font-weight: bold; /* Hacer el texto en negrita */
+  font-family: Arial, sans-serif; /* Utilizar la fuente Arial */
+  display: flex; /* Alinear verticalmente */
+  align-items: center; /* Alinear verticalmente */
+  font-size: 12px; /* Tamaño de la fuente */
+}
+
+
+/* Estilos para cambiar el color del texto cuando se pasa el mouse sobre las opciones */
+.sidebar-option:hover {
+  color: #fff;
+  background-color: #6a93f3; /* Cambiar el fondo al pasar el mouse */
+}
+
+/* Estilos para las opciones desplegables del menú */
+.sidebar-options {
+  display: none; /* Ocultar las opciones por defecto */
+  flex-direction: column; /* Apilar las opciones verticalmente */
+  padding-left: 10px; /* Añadir un poco de espacio a la izquierda */
+}
+
+/* Mostrar las opciones cuando el estado desplegado está activo */
+.sidebar-group.active .sidebar-options {
+  display: flex; /* Mostrar las opciones cuando el menú está desplegado */
+}
+
+/* Estilos para el título del grupo de la barra lateral */
+.sidebar-group-title {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #000000;
+  padding: 10px 20px;
+}
+
+/* Estilos para el ícono del título del grupo */
+.sidebar-group-title svg {
+  margin-right: 20px;
+}
+
+/* Estilos para las opciones de la barra lateral */
+.sidebar-options {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para las opciones de la barra lateral */
+.sidebar-option {
+  color: #adb5bd;
+  text-decoration: none;
+  padding: 8px 20px; /* Reducir el espaciado vertical y horizontal */
+  transition: color 0.3s ease;
+  font-weight: bold; /* Hacer el texto en negrita */
+  font-family: Arial, sans-serif; /* Utilizar la fuente Arial */
+  display: flex; /* Alinear verticalmente */
+  align-items: center; /* Alinear verticalmente */
+}
+
+/* Estilos para cambiar el color del texto cuando se pasa el mouse sobre las opciones */
+.sidebar-option:hover {
+  color: #000000;
+  background-color: #6a93f3; /* Cambiar el fondo al pasar el mouse */
+}

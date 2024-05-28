@@ -1,0 +1,61 @@
+.login-background {
+  background-image: url('foto1.jpg'); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Ajustar el tamaño de la imagen para cubrir el contenedor */
+  height: 100vh; /* Altura completa de la ventana */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(83, 186, 218, 0.8); /* Fondo blanco con transparencia */
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.card-title {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 2rem;
+  color: #ff6f61;
+}
+
+.form-label {
+  font-size: 1.2rem;
+  color: #343a40;
+  font-weight: bold; /* Negrita */
+}
+
+.form-control {
+  border-radius: 0.5rem;
+}
+
+.button-container {
+  margin-top: 1rem;
+}
+
+button {
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+  font-size: 1rem; /* Tamaño de fuente */
+  padding: 0.5rem 1rem; /* Espaciado interno */
+  color: #ffffff; /* Color de texto */
+  cursor: pointer; /* Cursor al pasar por encima */
+}
+
+button:hover {
+  background-color: #ff3f3f;
+  transform: translateY(-1px); /* Efecto de levantamiento al pasar el cursor */
+}
+
+.alert {
+  font-size: 1rem;
+}

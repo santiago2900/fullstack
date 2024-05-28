@@ -1,0 +1,67 @@
+.CocinaContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cocina-background {
+  background-image: url('foto1.jpg');
+  margin: 0; 
+  padding: 0;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;  
+  color: #fff; /* Cambia el color del texto a blanco */
+  
+}
+
+.PedidosContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.PedidoItem {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.logout-button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #ff3b20;
+}
