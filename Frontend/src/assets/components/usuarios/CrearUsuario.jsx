@@ -12,7 +12,7 @@ const CrearUsuario = () => {
     e.preventDefault();
     // Aquí enviar los datos al backend y manejar la respuesta
     try {
-      const response = await fetch('http://localhost:4000/restaurante/usuarios', {
+      const response = await fetch('https://fullstack-62eq.vercel.app/restaurante/usuarios', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

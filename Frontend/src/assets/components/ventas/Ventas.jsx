@@ -7,7 +7,7 @@ const TotalVentas = () => {
 
   const obtenerVentas = async () => {
     try {
-      const response = await fetch('http://localhost:4000/restaurante/ventasVer', {
+      const response = await fetch('https://fullstack-62eq.vercel.app/restaurante/ventasVer', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json'

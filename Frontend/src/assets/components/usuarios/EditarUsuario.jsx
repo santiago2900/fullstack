@@ -13,7 +13,7 @@ const EditarUsuario = () => {
   useEffect(() => {
     const fetchUsuarios = async () => {
       try {
-        const response = await fetch('http://localhost:4000/restaurante/usuarios');
+        const response = await fetch('https://fullstack-62eq.vercel.app/restaurante/usuarios');
         const data = await response.json();
         setUsuarios(data);
       } catch (error) {

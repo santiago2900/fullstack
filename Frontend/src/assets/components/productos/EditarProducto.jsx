@@ -17,7 +17,7 @@ const EditarProducto = () => {
   // Función para cargar los datos del producto desde el backend
   const cargarProductos = async () => {
     try {
-      const response = await fetch(`http://localhost:4000/restaurante/productos`);
+      const response = await fetch(`https://fullstack-62eq.vercel.app/restaurante/productos`);
       const data = await response.json();
       setProductos(data);
     } catch (error) {
@@ -62,7 +62,7 @@ const EditarProducto = () => {
     console.log(pedidoEditar);
 
     try {
-      const response = await fetch(`http://localhost:4000/restaurante/productos`, {
+      const response = await fetch(`https://fullstack-62eq.vercel.app/restaurante/productos`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

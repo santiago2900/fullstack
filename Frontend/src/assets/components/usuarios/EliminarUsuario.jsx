@@ -11,7 +11,7 @@ const EliminarUsuario = () => {
     // Aquí realizar la llamada para obtener la lista de usuarios desde el backend
     const fetchUsuarios = async () => {
       try {
-        const response = await fetch('http://localhost:4000/restaurante/usuarios');
+        const response = await fetch('https://fullstack-62eq.vercel.app/restaurante/usuarios');
         const data = await response.json();
         setUsuarios(data);
       } catch (error) {
@@ -29,7 +29,7 @@ const EliminarUsuario = () => {
     }
 
     try {
-      const response = await fetch(`http://localhost:4000/restaurante/usuarios/${selectedUser}`, {
+      const response = await fetch(`https://fullstack-62eq.vercel.app/restaurante/usuarios/${selectedUser}`, {
         method: 'DELETE',
       });
       if (!response.ok) {
